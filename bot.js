@@ -32,15 +32,15 @@ gClient.on('a',function(msg){
       setTimeout(function () {gClient.say("broken")
       setTimeout(function () {gClient.say("very")
    }
-   if (msg.a == "b!help"){
+   if (msg.a == "v!help"){
       gClient.say("general commands: v!sweep [channel name], v!rules")
       gClient.say("for advanced users only commands: v!prompt [command]")
    }
-   if (msg.a == "b!discordbot"){
+   if (msg.a == "v!discordbot"){
       gClient.say(botinvite);
       gClient.say('No.');
    }
-   if (msg.a == "b!discord") {
+   if (msg.a == "v!discord") {
       gClient.say('https://discord.gg/Am53zEg');
       gClient.say('The original script owners discord.')
    }
@@ -50,7 +50,7 @@ gClient.on('a',function(msg){
      gClient.say("sucessfully banned")
      
    }
-   if (msg.a.split(' ')[0] == "b!prompt") {
+   if (msg.a.split(' ')[0] == "v!prompt") {
      if (!msg.a.split(' ')[1]) {gClient.say('How you want to do with vroom bot? for example: v!prompt animation 2')}
      if (msg.a.split(' ')[1] == "animation") {
         if (!msg.a.split(' ')[2]) {
