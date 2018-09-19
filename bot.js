@@ -41,7 +41,7 @@ gClient.on('vroom [v!help]',function(msg){
      
    }
    }
-   if (msg.a.startsWith("b!") && banned.includes(msg.p._id)) {
+   if (msg.a.startsWith("v!") && banned.includes(msg.p._id)) {
       
       gClient.say('well, goodbye '+msg.p.name+'. you are banned from owner')
    }
