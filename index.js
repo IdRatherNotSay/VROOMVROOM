@@ -1,6 +1,6 @@
 const Client = require('mpp-client-xt');
 var gClient = new Client("ws://www.multiplayerpiano.com:443");
-var defaultChannel = "lobby";
+var defaultChannel = "test/sweepcenter";
 gClient.setChannel(defaultChannel);
 gClient.start();
 var ex = 0;
