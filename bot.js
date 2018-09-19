@@ -29,8 +29,8 @@ gClient.on('a',function(msg){
    if (msg.a == "v!rules"){
       gClient.say("very")
       gClient.say("very")
-      setTimeout(function () {gClient.say("broken)
-      setTimeout(function () {gClient.say("very")},20000)
+      setTimeout(function () {gClient.say("broken")
+      setTimeout(function () {gClient.say("very")
    }
    if (msg.a == "b!help"){
       gClient.say("general commands: v!sweep [channel name], v!rules")
